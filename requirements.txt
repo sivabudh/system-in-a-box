@@ -1,3 +1,4 @@
 psycopg2
 Django
 django-redis-sessions
+django-rq
