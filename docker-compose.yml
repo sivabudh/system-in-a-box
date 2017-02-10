@@ -8,6 +8,10 @@ services:
     ports:
       - "8000:8000"
     network_mode: host
+  worker:
+    build: .
+    command: python manage.py rqworker default
+    network_mode: host
 
 networks:
   outside:
