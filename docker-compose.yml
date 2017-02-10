@@ -13,6 +13,3 @@ services:
     command: python manage.py rqworker default
     network_mode: host
 
-networks:
-  outside:
-    external: true
